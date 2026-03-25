@@ -1,1 +1,23 @@
-# SSL_ADMIN
+# SSL Admin Induction 2026
+
+Documentation of my progress through the SSL Admin Induction tasks — covering VM setup, SSH hardening, and firewall configuration.
+
+## Progress
+
+| Task | Description | Status | Notes |
+|------|-------------|--------|-------|
+| Task 1 | Initial Setup | ✅ Complete | [View](docs/task1.md) |
+| Task 2 | Enhanced SSH Security | ✅ Complete | [View](docs/task2.md) |
+| Task 3 | Firewall and Network Security | ✅ Complete | [View](docs/task3.md) |
+| Task 4 | User and Permission Management | 🔄 Pending | — |
+| Task 5 | Web Server Deployment | 🔄 Pending | — |
+| Task 6 | Database Security | 🔄 Pending | — |
+| Task 7 | VPN Configuration | 🔄 Pending | — |
+| Task 8 | Docker Fundamentals | 🔄 Pending | — |
+| Task 9 | Ansible Automation | 🔄 Pending | — |
+
+## What I've Done So Far
+
+- Spun up an Ubuntu 22.04 VM on Azure using student benefits and configured automatic security updates.
+- Hardened SSH by disabling root login and password authentication, moving SSH to port 2222, and setting up Fail2ban to block brute-force attempts.
+- Configured UFW with a default deny policy, allowing only SSH (2222), HTTP (80), and HTTPS (443), with logging enabled.# SSL_ADMIN
