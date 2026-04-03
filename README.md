@@ -6,11 +6,11 @@ Documentation of my progress through the SSL Admin Induction tasks — covering 
 
 | Task | Description | Status | Notes |
 |------|-------------|--------|-------|
-| Task 1 | Initial Setup | ✅ Complete | [View](docs/task1.md) |
-| Task 2 | Enhanced SSH Security | ✅ Complete | [View](docs/task2.md) |
-| Task 3 | Firewall and Network Security | ✅ Complete | [View](docs/task3.md) |
-| Task 4 | User and Permission Management | 🔄 Pending | — |
-| Task 5 | Web Server Deployment | 🔄 Pending | — |
+| Task 1 | Initial Setup | Complete | [View](docs/task1.md) |
+| Task 2 | Enhanced SSH Security |  Complete | [View](docs/task2.md) |
+| Task 3 | Firewall and Network Security |  Complete | [View](docs/task3.md) |
+| Task 4 | User and Permission Management | Complete | [View](docs/task4.md) |
+| Task 5 | Web Server Deployment | Complete | [View](docs/task5.md)  |
 | Task 6 | Database Security | 🔄 Pending | — |
 | Task 7 | VPN Configuration | 🔄 Pending | — |
 | Task 8 | Docker Fundamentals | 🔄 Pending | — |
