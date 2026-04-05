@@ -16,8 +16,4 @@ Documentation of my progress through the SSL Admin Induction tasks — covering 
 | Task 8 | Docker Fundamentals | Complete | [View](docs/task8.md) |
 | Task 9 | Ansible Automation | Pending | — |
 
-## What I've Done So Far
 
-- Spun up an Ubuntu 22.04 VM on Azure using student benefits and configured automatic security updates.
-- Hardened SSH by disabling root login and password authentication, moving SSH to port 2222, and setting up Fail2ban to block brute-force attempts.
-- Configured UFW with a default deny policy, allowing only SSH (2222), HTTP (80), and HTTPS (443), with logging enabled.# SSL_ADMIN
