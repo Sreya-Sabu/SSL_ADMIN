@@ -39,11 +39,18 @@ Verified SSH is listening on the new port:
 sudo ss -tulnp | grep ssh
 ```
 
+to open the modified config file
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
 ## 2.2 Fail2ban Setup
 
 Fail2ban monitors auth logs and bans IPs after repeated failed login attempts.
 
 Created `/etc/fail2ban/jail.local`:
+
+but note that fail2ban first read jail.config then read jail.local as override
 
 ```ini
 [sshd]
